@@ -11,35 +11,35 @@ git clone https://github.com/marufrigan/OTPcatcher.git
 
 cd OTPcatcher
 
-3 Install Node.js dependencies:
+**3 Install Node.js dependencies:**
 
-npm install
+  npm install
 
-4) Set up a Python virtual environment and activate it:
+**4) Set up a Python virtual environment and activate it:**
 
-python3 -m venv venv
-source venv/bin/activate
+   python3 -m venv venv
+   source venv/bin/activate
 
-5) Install Python dependencies:
+**5) Install Python dependencies:**
 
-bash
-Copy code
-pip install -r requirements.txt
-Running the Server:
+    pip install -r requirements.txt
 
-bash
-Copy code
-node server.js
-Running the Client on another terminal (For attackers):
+**6) Running the Server:**
 
-bash
-Copy code
-python3 client.py
-Customizing the URL:
 
-While your server will be running on http://localhost:3000 by default, in a real-world scenario, you'd want a catchy or deceptive URL. For this, you might consider services like bit.ly to shorten and customize your link.
-For a more advanced approach, consider using a domain registrar to buy a domain that resembles a popular service. Combine this with a reverse proxy to direct traffic to your phishing site.
-Designing a Deceptive Page:
+    node server.js
+   
+**7) Running the Client on another terminal (For attackers):**
+
+
+  python3 client.py
+  
+**8) Customizing the URL:**
+
+  While your server will be running on http://localhost:3000 by default, in a       real-world scenario, you'd want a catchy or deceptive URL. For this, you might     consider services like bit.ly to shorten and customize your link.
+  For a more advanced approach, consider using a domain registrar to buy a domain   that resembles a popular service. Combine this with a reverse proxy to direct     traffic to your phishing site.
+
+**9)Designing a Deceptive Page:**
 
 Update the landing page in the server.js file to resemble a popular social media site's login page.
 Prompt the user to enter an OTP, stating it's for verification purposes.
