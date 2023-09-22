@@ -1,15 +1,15 @@
-Installation Steps:
-Prerequisites:
-Ensure you have Node.js, npm (Node Package Manager), Python 3, and pip installed on your system.
-You need git for cloning the repository.
+**Installation Steps:
+Prerequisites:**
+        Ensure you have Node.js, npm (Node Package Manager), Python 3, and pip installed on your system.
+        You need git for cloning the repository.
 **Steps**:
-1. Clone the repository:
+**1. Clone the repository:**
 
-git clone https://github.com/marufrigan/OTPcatcher.git
+  git clone https://github.com/marufrigan/OTPcatcher.git
 
-2. Navigate to the directory:
+**2. Navigate to the directory:**
 
-cd OTPcatcher
+  cd OTPcatcher
 
 **3 Install Node.js dependencies:**
 
@@ -41,27 +41,29 @@ cd OTPcatcher
 
 **9)Designing a Deceptive Page:**
 
-Update the landing page in the server.js file to resemble a popular social media site's login page.
-Prompt the user to enter an OTP, stating it's for verification purposes.
-Deploying (Advanced):
+  Update the landing page in the server.js file to resemble a popular social media site's login page.
+  Prompt the user to enter an OTP, stating it's for verification purposes.
 
-To reach external victims (in ethical scenarios), you need to deploy your phishing site. Consider using services like Heroku, DigitalOcean, or any cloud platform to host your node application.
-Ensure you set up the necessary environment variables and configurations for deployment.
-Usage:
-Attacker:
+**10)Deploying (Advanced):**
 
-Start both the server and client.
-Share the deceptive link with the victim (ensure you have permission).
-Monitor the client.py terminal to capture any entered OTPs.
-Victim:
+     To reach external victims (in ethical scenarios), you need to deploy your phishing site. Consider using services like Heroku, DigitalOcean, or any cloud platform to host your node       application.Ensure you set up the necessary environment variables and configurations for deployment.
 
-The victim receives a deceptive link, prompting them to verify their account or access exclusive content.
-Upon clicking and reaching the phishing page, they might be prompted to log in and then enter an OTP.
-Once entered, the OTP is captured and displayed on the attacker's client.py terminal.
-WARNING: This tool is for educational purposes only. Unauthorized attacking and phishing are illegal. Always obtain explicit permission. Ensure you educate users about such attacks to raise awareness, rather than misusing the tool.# OTPCatcher
 
-This project demonstrates how an OTP, entered on a website, can be intercepted by a third-party program. It's designed to raise awareness about the importance of cybersecurity.
+**Usage:**
 
-## Setup
+**Attacker:**
 
-1. Clone this repository:
+        Start both the server and client.
+        Share the deceptive link with the victim (ensure you have permission).
+        Monitor the client.py terminal to capture any entered OTPs.
+**Victim:**
+
+        The victim receives a deceptive link, prompting them to verify their account or access exclusive content.
+        Upon clicking and reaching the phishing page, they might be prompted to log in and then enter an OTP.
+        Once entered, the OTP is captured and displayed on the attacker's client.py terminal.
+        
+**WARNING**: This tool is for educational purposes only. Unauthorized attacking and phishing are illegal. Always obtain explicit permission. Ensure you educate users about such attacks to raise awareness, rather than misusing the tool.# OTPCatcher
+
+This project demonstrates how a third-party program can intercept an OTP that a user enters on a website. It's designed to raise awareness about the importance of cybersecurity.
+
+
