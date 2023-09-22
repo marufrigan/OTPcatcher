@@ -2,29 +2,25 @@ Installation Steps:
 Prerequisites:
 Ensure you have Node.js, npm (Node Package Manager), Python 3, and pip installed on your system.
 You need git for cloning the repository.
-Steps:
-Clone the repository:
+**Steps**:
+1. Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/marufrigan/OTPcatcher.git
-Navigate to the directory:
 
-bash
-Copy code
+2. Navigate to the directory:
+
 cd OTPcatcher
-Install Node.js dependencies:
 
-bash
-Copy code
+3 Install Node.js dependencies:
+
 npm install
-Set up a Python virtual environment and activate it:
 
-bash
-Copy code
+4) Set up a Python virtual environment and activate it:
+
 python3 -m venv venv
 source venv/bin/activate
-Install Python dependencies:
+
+5) Install Python dependencies:
 
 bash
 Copy code
